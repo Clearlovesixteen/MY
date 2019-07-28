@@ -1,0 +1,945 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+}
+html,body{
+	height: 100%;
+	width:100%;
+	background-color: #FFF;
+	color: #3c3c3c;
+	overflow-x: hidden;
+	font-family: "arial black";
+}
+/* 主体 */
+.main{
+	width: 750px;
+	height:4400px;
+	margin: 0 auto;
+	border: 1px solid rgb(173,173,173);
+	background-color: rgb(246,246,246);
+}
+/* 手机抬头图片 */
+.Mobile-Page-Top{
+	width: 750px;
+	height:126px;
+	border: 0px solid black;
+}
+/* 签到部分 */
+.Sign-in{
+	width: 750px;
+	height: 305px;
+	border: 0px solid red;
+	background-image: url(../images/12.PNG.png);
+	background-repeat: no-repeat;
+	background-color: rgb(251,251,251);
+	margin-top: -1px;
+}
+.Sign-in p{
+	color:#FFFFFF;
+	font-size: 15px;
+	margin-left: 24px;
+}
+.Check-in-page{
+	width: 710px;
+	height: 280px;
+	margin: 0 auto;
+	border: 0px solid black;
+	border-radius: 15px;
+	box-shadow:0 2px 0 #aaa;
+	background-color: rgb(255,255,255);
+}
+.Check-in-page-top{
+	width: 710px;
+	height: 100px;
+	border: 0px solid red;
+}
+.Check-in-page-top .Text-section{
+	width: 450px;
+	height: 98px;
+	border: 0px solid yellow;
+	float: left;
+}
+.Check-in-page-top .Text-section .Text-one{
+	float: left;
+	color: rgb(51,51,51);
+	font-size: 28px;
+	margin-top:25px ;
+}
+.Check-in-page-top .Text-section .Text-two{
+	color: rgb(247,89,89);
+	font-size: 28px;
+	margin-top: 25px;
+}
+.Check-in-page-top .Button-section{
+	width: 256px;
+	height: 98px;
+	border: 0px solid blue;
+	float: right;
+}
+.Check-in-page-top .Button-section a{
+	display: inline-block;
+	width: 120px;
+	height: 50px;
+	border: 0px solid red;
+	position: relative;
+	left: 70px;
+	top: 20px;
+	border-radius: 30px;
+	background-color:rgb(247,89,89);
+}
+.Check-in-page-top .Button-section p{
+	margin-left: 35px;
+	line-height: 45px;
+	font-size: 28px;
+}
+.Check-in-page-top .Button-section .Invite-help{
+	position: absolute;
+	top: -55px;
+}
+/* 底下签到领奖部分 */
+.Check-in-page-bottom{
+	width: 710px;
+	height: 176px;
+	border: 0px solid black;
+}
+.Check-in-page-bottom li{
+	display:inline-block;
+	float: left;
+	width: 72px;
+	height:110px;
+	border: 0px solid red;
+	margin-left: 20px;
+	position: relative;
+	text-align: center;
+	left: 10px;
+	top: 10px;
+}
+.Check-in-page-bottom li a .hunders{
+	position: absolute;
+	top: -24px;
+	left: 24px;
+}
+.Check-in-page-bottom li a .Signed{
+	color: rgb(248,111,111);
+	margin-left: -3px;
+}
+.Check-in-page-bottom li a .Days{
+	color: rgb(153,153,153);
+	margin-left: -3px;
+}
+.Check-in-page-bottom li a .first-image{
+	border: 0px solid red;
+	display: inline-block;
+	margin-top: 20px;
+}
+.Check-in-page-bottom li .first-Reward-Bonus-Ticket p{
+	color: rgb(159,159,159);
+	margin-left: -3px;
+	margin-top: 10px;
+}
+
+.Check-in-page-bottom li .first-Reward-Bonus-Ticket{
+	width: 70px;
+	height:85px;
+	border: 0px solid red;
+	border-radius: 15px;
+	background-color: rgb(242,242,242);
+}
+.Check-in-page-bottom li .Reward-Bonus-Ticket{
+	width: 70px;
+	height:85px;
+	border: 0px solid red;
+	border-radius: 15px;
+	background-color: rgb(253,227,224);
+}
+.Check-in-page-bottom li .Reward-Bonus-Ticket p{
+	color: rgb(64,63,63);
+	margin-left: -3px;
+	margin-top: 10px;
+}
+.Check-in-page-bottom li .Reward-Bonus-Ticket img{
+	margin-top: 8px;
+}
+/* 图片部分 */
+.Middle-Picture-Section{
+	width: 750px;
+	height: 150px;
+	border: 0px solid black;
+	margin-top: 35px;
+	background-color: rgb(255,255,255);
+}
+.Middle-Picture-Section img{
+	display: inline-block;
+	width: 720px;
+	height: 120px;
+	border-radius: 20px;
+	margin-left: 15px;
+	margin-top: 15px;
+}
+/* 红包券部分主体 */
+.coupon-withdrawal{
+	margin-top: 20px;
+	width: 750px;
+	height: 150px;
+	border: 0px solid black;
+	background-color: rgb(255,255,255);
+}
+/* 红包券部分文字 */
+.Withdrawal-text{
+	width: 460px;
+	height: 148px;
+	border: 0px solid red;
+	float: left;
+}
+.Red-envelope{
+	float: left;
+	width:170px;
+	height: 146px;
+	line-height: 146px;
+	border: 0px solid black;
+	font-size: 26px;
+	color: rgb(133,133,133);
+	text-align: right;
+}
+.Number-of-red-envelopes{
+	width: 286px;
+	height:148px ;
+	float: right;
+	border: 0px solid green;
+	position: relative;
+	line-height: 148px;
+	font-size: 45px;
+	color: rgb(51,51,51);
+}
+.Number-of-red-envelopes img{
+	position: absolute;
+	top: 35px;
+	left: 165px;
+}
+/* 红包券部分提现按钮 */
+.Cash-button{
+	width: 286px;
+	height: 148px;
+	float: right;
+	border: 0px solid blue;
+	position: relative;
+}
+.Cash-button a{
+	text-align: center;
+	display: inline-block;
+	width:150px;
+	height: 60px;
+	border: 0px solid black;
+	line-height: 60px;
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	font-size: 24px;
+	background-color: rgb(247,89,89);
+	border-radius: 30px;
+	color: rgb(255,255,255);
+}
+/* 新手任务部分主体 */
+.Novice-task-section{
+	width: 750px;
+	height: 1400px;
+	border: 0px solid red;
+	margin-top: 20px;
+	background-color: rgb(255,255,255);
+}
+/* 新手任务抬头文字 */
+.Novice-Task-Heading-Text{
+	width: 750px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 34px;
+	border: 0px solid red;
+	color: rgb(51,51,51);
+	position: relative;
+}
+.Novice-Task-Heading-Text p{
+	display: inline-block;
+	margin-left: 40px;
+}
+.Novice-Task-Heading-Text img{
+	position: absolute;
+	margin-left: 20px;
+	top: 35%;
+}
+/* 新手任务领奖部分 */
+.Daily-cash-portion{
+	width: 670px;
+	height: 400px;
+	border: 0px solid green;
+	margin: 0 auto;
+	background-color: rgb(254,242,240);
+}
+/* 领奖抬头部分 */
+.Daily-cash-portion-top{
+	width: 670px;
+	height: 80px;
+	border: 0px solid black;
+	line-height: 50px;
+}
+/* 领奖抬头左边部分 */
+.Cash-limit{
+	float: left;
+	height: 80px;
+	width: 400px;
+	border: 0px solid blue;
+	position: relative;
+}
+.Cash-limit .text1{
+	display: inline-block;
+	font-size: 28px;
+	color: rgb(51,51,51);
+	margin-left: 10px;
+	margin-top: 12px;
+}
+.Cash-limit img{
+	display: inline-block;
+	position: absolute;
+	top: 30%;
+	left: 160px;
+	}
+.Cash-limit .text2{
+	display: inline-block;
+	font-size: 20px;
+	color: rgb(247,89,89);
+	position: absolute;
+	top: 20%;
+	left: 200px;
+}	
+/* 领奖抬头右边部分 */
+.Come-again-tomorrow{
+	width: 266px;
+	height: 80px;
+	border: 0px solid yellow;
+	float: right;
+	position: relative;
+}
+.Come-again-tomorrow a{
+	display: inline-block;
+	width: 150px;
+	height: 60px;
+	border: 0px solid red;
+	position: absolute;
+	left: 30%;
+	top: 10%;
+	background-color: rgb(221,221,221);
+	text-align: center;
+	line-height: 60px;
+	color: rgb(167,167,167);
+	border-radius: 30px;
+	font-size: 24px;
+}
+/* 中间图片领奖部分 */
+.Picture-award-receiving-part{
+	width: 670px;
+	height: 240px;
+	border: 0px solid rosybrown;
+}
+.Picture-award-receiving-part li{
+	float: left;
+	width: 70px;
+	height: 150px;
+	border: 0px solid red;
+	margin-left: 20px;
+	margin-top: 60px;
+}
+.Picture-award-receiving-part img{
+	margin-left: 6px;
+}
+/* 图片下面文本内容 */
+.Picture-award-receiving-part .first-content{
+	text-align: center;
+	color: rgb(187,183,182);
+}
+.Picture-award-receiving-part .content{
+	text-align: center;
+	color: rgb(187,183,182);
+}
+/* 圆形天数记录 */
+.Picture-award-receiving-part .first-round{
+	width: 30px;
+	height: 30px;
+	border: 1px solid rgb(251,181,180);
+	margin: 0 auto ;
+	margin-top: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	color: #FFFFFF;
+	background-color: rgb(247,89,89);
+	font-size: 22px;
+}
+.Picture-award-receiving-part .round{
+	width: 30px;
+	height: 30px;
+	border: 1px solid rgb(251,181,180);
+	margin: 0 auto ;
+	margin-top: 20px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	color: rgb(248,109,109);
+	font-size: 22px;
+}
+/* 新用户领奖说明内容 */
+.New-User-Description{
+	width: 670px;
+	height: 70px;
+	border: 0px solid saddlebrown;
+}
+.New-User-Description p{
+	margin-left: 10px;
+	color: rgb(102,102,102);
+	font-size: 24px;
+}
+/* 第一次领奖部分 */
+.One-withdrawal{
+	height: 150px;
+	width: 740px;
+	border: 0px solid blue;
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+	margin-left: 8px;
+	margin-top: 20px;
+}
+/* 集体部分 */
+.Cash-text{
+	float: left;
+	width: 470px;
+	height: 148px;
+	border: 0px solid red;
+}
+.everyday-one{
+	display: inline-block;
+	font-size: 28px;
+	color: rgb(51,51,51);
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.One-withdrawal img{
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+	left: 200px;
+	}
+ .everyday-monye{
+	display: inline-block;
+	font-size: 20px;
+	color: rgb(247,89,89);
+	position: absolute;
+	top: 20%;
+	left: 240px;
+}	
+.Correspondence{
+	color: rgb(173,173,173);
+	font-size: 23px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.Withdraw-immediately-two{
+	width: 265px;
+	height:148px;
+	border: 0px solid orangered;
+	float: right;
+	position: relative;
+}
+.Withdraw-immediately-two a{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	border: 0px solid red;
+	border-radius: 30px;
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	background-color: rgb(247,89,89);
+	font-size: 24px;
+	color: #FFFFFF;
+}
+/* 斗地主提现 */
+.Fight-the-landlord-for-cash{
+	height: 150px;
+	width: 740px;
+	border: 0px solid blue;
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+	margin-left: 8px;
+	margin-top: 20px;
+}
+.Fight-the-landlord-for-cash img{
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+	left: 200px;
+}
+.Fight-the-landlord-for-cash .Withdraw-immediately-two a{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	border: 0px solid red;
+	border-radius: 30px;
+	position: absolute;
+	left: 25%;
+	top: 25%;
+	background-color: rgb(255,182,0);
+	font-size: 24px;
+	color: #FFFFFF;
+}
+/* 查看收益 */
+.View-revenue{
+	height: 150px;
+	width: 740px;
+	border: 0px solid blue;
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+	margin-left: 8px;
+	margin-top: 20px;
+}
+.View-revenue img{
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+	left: 200px;
+}
+/* 查看我的钱包 */
+.Check-wallet{
+	height: 150px;
+	width: 740px;
+	border: 0px solid blue;
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+	margin-left: 8px;
+	margin-top: 20px;
+}
+.Check-wallet img{
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+	left: 200px;
+}
+/* 输入邀请码 */
+.Enter-the-invitation-code{
+	height: 150px;
+	width: 740px;
+	border: 0px solid blue;
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+	margin-left: 8px;
+	margin-top: 20px;
+}
+.Enter-the-invitation-code img{
+	display: inline-block;
+	position: absolute;
+	top: 20%;
+	left: 200px;
+}
+/* 日常任务 */
+.Daily-task-subject{
+	width:750px;
+	height:1000px;
+	border: 0px solid red;
+	background-color: rgb(255,255,255);
+	margin-top: 20px;
+}
+.Daily-task-subject .Text-section-of-daily-tasks{
+	width: 750px;
+	height: 100px;
+	line-height: 60px;
+	border: 0px solid red;
+	color: rgb(51,51,51);
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+}
+.Text-section-of-daily-tasks .everyday-one{
+	font-size: 34px;
+}
+/* 邀请收徒 */
+.Invite-disciples{
+	height: 150px;
+	width: 740px;
+	border: 0px solid blue;
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+	margin-left: 8px;
+	margin-top: 45px;
+}
+.Invite-disciples img{
+	display: inline-block;
+	position: absolute;
+	top: 18%;
+	left: 310px;
+}
+.Invite-disciples .everyday-monye{
+	display: inline-block;
+	font-size: 20px;
+	color: rgb(247,89,89);
+	position: absolute;
+	top: 20%;
+	left: 350px;
+}
+.Invite-disciples .Withdraw-immediately-two a{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	border: 0px solid red;
+	border-radius: 30px;
+	position: absolute;
+	left: 25%;
+	top: 35%;
+	background-color: rgb(247,89,89);
+	font-size: 24px;
+	color: #FFFFFF;
+}
+/* 关注公众号 */
+.Public-number{
+	height: 150px;
+	width: 740px;
+	border: 0px solid blue;
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+	margin-left: 8px;
+	margin-top: 45px;
+}
+.Public-number img{
+	display: inline-block;
+	position: absolute;
+	top: 18%;
+	left: 170px;
+}
+.Public-number .everyday-monye{
+	display: inline-block;
+	font-size: 20px;
+	color: rgb(247,89,89);
+	position: absolute;
+	top: 20%;
+	left: 210px;
+}
+.Public-number .Withdraw-immediately-two a{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	border: 1px solid rgb(173,173,173);
+	border-radius: 30px;
+	position: absolute;
+	left: 25%;
+	top: 35%;
+	background-color: rgb(255,255,255);
+	font-size: 24px;
+	color: rgb(173,173,173);
+}
+/* 赢一局斗地主 */
+.Win-a-game{
+	height: 150px;
+	width: 740px;
+	border: 0px solid blue;
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+	margin-left: 8px;
+	margin-top: 45px;
+}
+.Win-a-game img{
+	display: inline-block;
+	position: absolute;
+	top: 18%;
+	left: 200px;
+}
+.Win-a-game .everyday-monye{
+	display: inline-block;
+	font-size: 20px;
+	color: rgb(247,89,89);
+	position: absolute;
+	top: 20%;
+	left: 240px;
+}
+.Win-a-game .Withdraw-immediately-two a{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	border: 0px solid rgb(173,173,173);
+	border-radius: 30px;
+	position: absolute;
+	left: 25%;
+	top: 35%;
+	background-color: rgb(255,182,0);
+	font-size: 24px;
+	color: #FFFFFF;
+}
+/* 开宝箱分享 */
+.Open-a-treasure-chest{
+	height: 150px;
+	width: 740px;
+	border: 0px solid blue;
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+	margin-left: 8px;
+	margin-top: 45px;
+}
+.Open-a-treasure-chest img{
+	display: inline-block;
+	position: absolute;
+	top: 18%;
+	left: 200px;
+}
+.Open-a-treasure-chest .everyday-monye{
+	display: inline-block;
+	font-size: 20px;
+	color: rgb(247,89,89);
+	position: absolute;
+	top: 20%;
+	left: 240px;
+}
+.Open-a-treasure-chest .Withdraw-immediately-two a{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	border: 0px solid rgb(173,173,173);
+	border-radius: 30px;
+	position: absolute;
+	left: 25%;
+	top: 35%;
+	background-color: rgb(247,89,89);
+	font-size: 24px;
+	color: #FFFFFF;
+}
+/* 游戏任务 */
+.Game-task{
+	width:750px;
+	height:900px;
+	border: 0px solid red;
+	background-color: rgb(255,255,255);
+	margin-top: 20px;
+}
+.Game-task .Text-section-of-daily-tasks{
+	width: 750px;
+	height: 100px;
+	line-height: 60px;
+	border: 0px solid red;
+	color: rgb(51,51,51);
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+}
+ .Game-task .Text-section-of-daily-tasks .everyday-one{
+	font-size: 34px;
+}
+/* 赢6局斗地主 */
+.Win-six-games{
+	height: 150px;
+	width: 740px;
+	border: 0px solid blue;
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+	margin-left: 8px;
+	margin-top: 45px;
+}
+.Win-six-games img{
+	display: inline-block;
+	position: absolute;
+	top: 18%;
+	left: 200px;
+}
+.Win-six-games .everyday-monye{
+	display: inline-block;
+	font-size: 20px;
+	color: rgb(247,89,89);
+	position: absolute;
+	top: 20%;
+	left: 240px;
+}
+.Win-six-games .Withdraw-immediately-two a{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	border: 0px solid rgb(173,173,173);
+	border-radius: 30px;
+	position: absolute;
+	left: 25%;
+	top: 35%;
+	background-color: rgb(247,89,89);
+	font-size: 24px;
+	color: #FFFFFF;
+} 
+.Win-six-games .schedule{
+	display: inline-block;
+	color: rgb(173,173,173);
+	font-size: 23px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.Win-six-games .Progress-bar{
+	position: absolute;
+	left: 80px;
+	top: 124px;
+}
+.Win-six-games .Fraction{
+	position: absolute;
+	left: 370px;
+	top: 121px;
+}
+/* 连胜三局斗地主 */
+.Win-3-games-in-a-row{
+	height: 150px;
+	width: 740px;
+	border: 0px solid blue;
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+	margin-left: 8px;
+	margin-top: 45px;
+}
+.Win-3-games-in-a-row img{
+	display: inline-block;
+	position: absolute;
+	top: 18%;
+	left: 220px;
+}
+.Win-3-games-in-a-row .everyday-monye{
+	display: inline-block;
+	font-size: 20px;
+	color: rgb(247,89,89);
+	position: absolute;
+	top: 20%;
+	left: 260px;
+}
+.Win-3-games-in-a-row .Withdraw-immediately-two a{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	border: 0px solid rgb(173,173,173);
+	border-radius: 30px;
+	position: absolute;
+	left: 25%;
+	top: 35%;
+	background-color: rgb(247,89,89);
+	font-size: 24px;
+	color: #FFFFFF;
+} 
+.Win-3-games-in-a-row .schedule{
+	display: inline-block;
+	color: rgb(173,173,173);
+	font-size: 23px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.Win-3-games-in-a-row .Progress-bar{
+	position: absolute;
+	left: 80px;
+	top: 124px;
+}
+.Win-3-games-in-a-row .Fraction{
+	position: absolute;
+	left: 390px;
+	top: 120px;
+}
+/* 连赢6局斗地主 */
+.Win-6-games-in-a-row{
+	height: 150px;
+	width: 740px;
+	border: 0px solid blue;
+	position: relative;
+	border-bottom: 1px solid rgb(235,235,235);
+	margin-left: 8px;
+	margin-top: 45px;
+}
+.Win-6-games-in-a-row img{
+	display: inline-block;
+	position: absolute;
+	top: 18%;
+	left: 220px;
+}
+.Win-6-games-in-a-row .everyday-monye{
+	display: inline-block;
+	font-size: 20px;
+	color: rgb(247,89,89);
+	position: absolute;
+	top: 20%;
+	left: 260px;
+}
+.Win-6-games-in-a-row .Withdraw-immediately-two a{
+	display: inline-block;
+	text-align: center;
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+	border: 0px solid rgb(173,173,173);
+	border-radius: 30px;
+	position: absolute;
+	left: 25%;
+	top: 35%;
+	background-color: rgb(247,89,89);
+	font-size: 24px;
+	color: #FFFFFF;
+} 
+.Win-6-games-in-a-row .schedule{
+	display: inline-block;
+	color: rgb(173,173,173);
+	font-size: 23px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.Win-6-games-in-a-row .Progress-bar{
+	position: absolute;
+	left: 80px;
+	top: 124px;
+}
+.Win-6-games-in-a-row .Fraction{
+	position: absolute;
+	left: 390px;
+	top: 120px;
+}
+/* 页面底部 */
+.At-the-bottom-of-the-page{
+	width: 750px;
+	height: 140px;
+	border: 0px solid black;
+	margin-top: 50px;
+	background-color: rgb(254,254,254);
+	border-top: 1px solid rgb(235,235,235);
+}
+.At-the-bottom-of-the-page ul li{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	border: 0px solid black;
+	float: left;
+	margin-left: 100px;
+	position: relative;
+	text-align: center;
+	
+}
+.At-the-bottom-of-the-page ul li img{
+	margin-top: 20px;
+}
+.At-the-bottom-of-the-page ul li p{
+	font-size: 22px;
+	color: rgb(102,102,102);
+}
+.At-the-bottom-of-the-page ul li .Icon{
+	position: absolute;
+	top: -40px;
+	left: 15px;
+}
+.At-the-bottom-of-the-page ul li .make-money{
+	margin-top: 70px;
+	color: rgb(247,89,89);
+}
